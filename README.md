@@ -26,4 +26,11 @@ api_client = BitBns::Client.new({
 
 # Fetch Markets
 response = api_client.send_request("fetch_markets")
+
+# Fetch Tickers
+response = api_client.send_request("fetch_tickers")
+
+# Fetch OrderBook
+response = api_client.send_request("fetch_orderbook", { symbol: "BTCUSDT" })
+
 ```

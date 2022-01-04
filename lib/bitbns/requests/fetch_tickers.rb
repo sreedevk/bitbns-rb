@@ -2,9 +2,9 @@
 
 module BitBns
   module Requests
-    class FetchMarkets < BitBns::Requests::Request
+    class FetchTickers < BitBns::Requests::Request
       def initialize(opts)
-        @url             = "#{PUB_BASE_URL}/order/fetchMarkets/"
+        @url             = "#{PUB_BASE_URL}/order/fetchTickers/"
         @params          = {}
         @headers         = {}
         @verb            = :get
