@@ -34,3 +34,15 @@ response = api_client.send_request("fetch_tickers")
 response = api_client.send_request("fetch_orderbook", { symbol: "BTCUSDT" })
 
 ```
+
+## Roadmap
+
+1. Add Authentication Header Logic
+2. Implement Private APIs
+
+## Contributions
+Feel free to fork this repo & raise a request against the `main` branch if you wish to contribute.
+Some guidelines to contributing are.
+
+1. Add Plenty of Tests around the feature you add (We Use Minitest)
+2. Run Rubocop before you raise a PR.
