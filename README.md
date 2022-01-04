@@ -2,6 +2,20 @@
 
 Ruby Wrapper Around [BitBns APIs](https://documenter.getpostman.com/view/2372406/Szt5hBp7?version=latest).
 
+## Installation
+
+- Add through Gemfile
+
+```ruby
+gem "bitbns"
+```
+
+- Install through gem cli
+
+```bash
+gem install bitbns
+```
+
 ## Usage
 
 ```ruby
