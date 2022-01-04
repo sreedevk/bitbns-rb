@@ -46,3 +46,4 @@ Some guidelines to contributing are.
 
 1. Add Plenty of Tests around the feature you add (We Use Minitest)
 2. Run Rubocop before you raise a PR.
+3. Do not implement custom API clients to add new type of requests. Build off of the existing pattern instead.
