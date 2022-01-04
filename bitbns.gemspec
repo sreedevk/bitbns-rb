@@ -10,4 +10,5 @@ Gem::Specification.new do |s|
   s.homepage    = "https:/bitbns.com"
   s.metadata    = { 'source_code_uri' => "https://github.com/sreedevk/bitbns-rb" }
   s.required_ruby_version = '~> 2.6.6'
+  s.add_runtime_dependency 'faraday', '~> 1.8.0'
 end
