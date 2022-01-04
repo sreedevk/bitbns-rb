@@ -36,9 +36,7 @@ response = api_client.send_request("fetch_orderbook", { symbol: "BTCUSDT" })
 ```
 
 ## Roadmap
-
-1. Add Authentication Header Logic
-2. Implement Private APIs
+- Support Complete Api List
 
 ## Contributions
 Feel free to fork this repo & raise a request against the `main` branch if you wish to contribute.
