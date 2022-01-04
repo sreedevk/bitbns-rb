@@ -13,6 +13,14 @@ describe BitBns::Client do
 
   describe "#send_request" do
     it "fetches bitbns ticker when called with `fetch_tickers` option" do
+      response = @client.send_request("fetch_markets")
+
+      assert_equal response.raw.status, 200
+      assert_equal response.body.key?("bids"), true
+      assert_equal response.body.key?("asks"), true
+      assert_equal response.body.key?("timestamp"), true
+      assert_equal response.body.key?("datetime"), true
+      assert_equal response.body.key?("nonce"), true
     end
   end
 end

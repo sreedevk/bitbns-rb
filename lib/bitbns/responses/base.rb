@@ -1,3 +1,5 @@
+require 'json'
+
 module BitBns
   module Responses
     require_relative "./response.rb"
